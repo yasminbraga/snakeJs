@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  background-color: black;
+  border-radius: 8px;
+}
+
+.game__alerts,
+.game__header {
+  padding: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__alerts {
+  justify-content: center;
+  text-align: center;
+}
